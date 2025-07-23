@@ -1,0 +1,8 @@
+srt_file_path = 'captions/c.srt'
+video_file_path = 'videos/v.mp4'
+LLM_prompt_path = 'prompts/llm.md'
+MLLM_prompt_path = 'prompts/mllm.md'
+analysis_block_path = 'prompts/analysis_block.md'
+timestamps_file_path = 'intermediate/timestamps.json'
+dict_file_path = 'intermediate/dict.json'
+screenshot_path = 'intermediate/screenshots'
