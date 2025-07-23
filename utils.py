@@ -104,6 +104,8 @@ def generate_MLLM_prompt(srt_file_path, timestamps_file_path, screenshots_file_p
     prompt = load_text(MLLM_prompt_path).format(full_srt_text=srt_content)
     contents.append(prompt)
 
+    # Uploading screenshots is extremely time-costly. 
+    # So I saved all "local filename -> file system filename" mappings in ./intermediate/dict.json.
     if os.path.exists(dict_file_path):
         with open(dict_file_path, 'r') as f:
             name_dict = json.load(f)

@@ -27,7 +27,7 @@ def main():
         except Exception as e: 
             print(e)
             return -1
-        with open("temp.txt", "w") as f:
+        with open("filename.txt", "w") as f:
             f.write(video_title)
         print("Caption and video files have been downloaded")
         if not ask(force_yes):
@@ -55,7 +55,7 @@ def main():
         
     if start_stage <= 8:
         try:
-            with open("temp.txt", "r") as f:
+            with open("filename.txt", "r") as f:
                 video_title = f.read()
             summarize.summarize(video_title)
         except Exception as e: 

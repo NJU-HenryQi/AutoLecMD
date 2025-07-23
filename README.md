@@ -1,5 +1,22 @@
 # AutoLecMD
 
+### Introduction
+
+Summarize a lecture/tutorial video to a study note in Markdown with illustrations.
+
+---
+
+### Demo
+
+[Lec 7: Exam 1 review | MIT 18.01 Single Variable Calculus, Fall 2007](https://www.youtube.com/watch?v=eHJuAByQf5A)
+
+<iframe src="https://drive.google.com/file/d/1kp-r7_X2jpAXrbFmGmXVCWgqfR5kA9_2/preview" width="100%" height="600px"></iframe>
+
+[How To Draw Sprigatito | Pokemon Scarlet & Violet](https://www.youtube.com/watch?v=t7YCenX3b4o)
+
+<iframe src="https://drive.google.com/file/d/1qPeq3tbxMhvob_eHzcJkFlUUIt1I30yU/preview" width="100%" height="600px"></iframe>
+---
+
 ### Setup
 
 Clone the project
