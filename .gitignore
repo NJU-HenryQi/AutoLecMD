@@ -8,3 +8,6 @@ file_upload.md
 output.md
 temp.py
 youtube_website.md
+.gitignore
+__pycache__
+.DS_Store
